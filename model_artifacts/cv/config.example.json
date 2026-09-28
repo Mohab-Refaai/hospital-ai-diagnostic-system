@@ -1,0 +1,8 @@
+{
+  "_comment": "Copy to config.json. Labels MUST be in the same order as your training data.yaml (confirm the class list from the CheXDet annotation file).",
+  "framework": "yolo_onnx",
+  "model_file": "best.onnx",
+  "labels": ["Atelectasis", "Cardiomegaly", "Effusion", "Nodule", "Pneumothorax", "Consolidation", "Fibrosis"],
+  "conf_threshold": 0.25,
+  "iou_threshold": 0.45
+}

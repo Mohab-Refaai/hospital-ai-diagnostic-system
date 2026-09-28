@@ -1,0 +1,12 @@
+streamlit>=1.50
+pandas
+numpy
+scikit-learn
+xgboost
+joblib
+shap
+pillow>=10.1
+onnxruntime
+pydicom
+# Only if your detection model is a YOLO .pt file (heavy — pulls in PyTorch):
+# ultralytics
